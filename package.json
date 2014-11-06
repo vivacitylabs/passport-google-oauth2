@@ -2,7 +2,7 @@
   "name": "passport-google-oauth2",
   "version": "0.0.1",
   "description": "Passport strategy for Google OAuth 2.0",
-  "main": "./lib/passport-google-oauth/index.js",
+  "main": "./lib/index.js",
   "directories": {
     "example": "examples",
     "test": "test"
