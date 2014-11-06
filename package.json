@@ -8,8 +8,7 @@
     "test": "test"
   },
   "dependencies": {
-    "passport-oauth2": "^1.1.2",
-    "pkginfo": "0.2.x"
+    "passport-oauth2": "^1.1.2"
   },
   "devDependencies": {
     "vows": "^0.8.0"
