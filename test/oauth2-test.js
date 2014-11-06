@@ -106,6 +106,7 @@ vows.describe('GoogleStrategy').addBatch({
         assert.equal(profile.displayName, 'Fred Example');
         assert.equal(profile.name.familyName, 'Example');
         assert.equal(profile.name.givenName, 'Fred');
+        assert.equal(profile.email, 'fred.example@gmail.com')
         assert.equal(profile.emails[0].value, 'fred.example@gmail.com');
       },
       'should set raw property' : function(err, profile) {
