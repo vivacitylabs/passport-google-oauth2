@@ -9,11 +9,10 @@
   },
   "dependencies": {
     "passport-oauth2": "^1.1.2",
-    "pkginfo": "0.2.x",
-    "vows": "^0.8.0"
+    "pkginfo": "0.2.x"
   },
   "devDependencies": {
-    "vows": "0.6.x"
+    "vows": "^0.8.0"
   },
   "scripts": {
     "test": "make test"
