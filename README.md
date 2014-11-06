@@ -1,4 +1,4 @@
-# Passport-Google-OAuth
+# Passport strategy for Google OAuth 2.0
 
 [Passport](http://passportjs.org/) strategies for authenticating with [Google](http://www.google.com/)
 using ONLY OAuth 2.0.
@@ -11,7 +11,7 @@ unobtrusively integrated into any application or framework that supports
 
 ## Install
 
-    $ npm install kroknet-passport-google-oauth
+    $ npm install passport-google-oauth2
 
 ## Usage of OAuth 2.0
 
@@ -23,7 +23,7 @@ accepts these credentials and calls `done` providing a user, as well as
 `options` specifying a client ID, client secret, and callback URL.
 
 ```Javascript
-var GoogleStrategy = require( 'kroknet-passport-google-oauth' ).Strategy;
+var GoogleStrategy = require( 'passport-google-oauth2' ).Strategy;
 
 passport.use(new GoogleStrategy({
     clientID:     GOOGLE_CLIENT_ID,
@@ -59,8 +59,8 @@ application:
 ```Javascript
 app.get('/auth/google',
   passport.authenticate('google', { scope: 
-  	'https://www.googleapis.com/auth/plus.login',
-  	'https://www.googleapis.com/auth/plus.profile.emails.read' }
+  	[ 'https://www.googleapis.com/auth/plus.login',
+  	, 'https://www.googleapis.com/auth/plus.profile.emails.read' ] }
 ));
 
 app.get( '/auth/google/callback', 
@@ -90,7 +90,7 @@ app.get( '/auth/google/callback',
 
 ## Examples
 
-For a complete, working example, refer to the [OAuth 2.0 example](https://github.com/estebita/passport-google-oauth/tree/master/examples/oauth2).
+For a complete, working example, refer to the [OAuth 2.0 example](example).
 
 ## Credits
 

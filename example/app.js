@@ -7,7 +7,7 @@ var express   		 = require( 'express' )
   , cookieParser     = require( 'cookie-parser' )
   , session          = require( 'express-session' )
   , RedisStore       = require( 'connect-redis' )( session )
-  , GoogleStrategy   = require( 'kroknet-passport-google-oauth' ).Strategy;
+  , GoogleStrategy   = require( 'passport-google-oauth2' ).Strategy;
 
 // API Access link for creating client ID and secret:
 // https://code.google.com/apis/console/
