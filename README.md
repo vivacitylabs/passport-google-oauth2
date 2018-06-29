@@ -1,5 +1,12 @@
 # Passport strategy for Google OAuth 2.0
 
+[![Build Status](https://travis-ci.org/passport-next/passport-google-oauth2.svg?branch=master)](https://travis-ci.org/passport-next/passport-google-oauth2)
+[![Coverage Status](https://coveralls.io/repos/github/passport-next/passport-google-oauth2/badge.svg?branch=master)](https://coveralls.io/github/passport-next/passport-google-oauth2?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/7c817d8118420a47390a/maintainability)](https://codeclimate.com/github/passport-next/passport-google-oauth2/maintainability)
+[![Dependencies](https://david-dm.org/passport-next/passport-google-oauth2.png)](https://david-dm.org/passport-next/passport-google-oauth2)
+<!--[![SAST](https://gitlab.com/passport-next/passport-google-oauth2/badges/master/build.svg)](https://gitlab.com/passport-next/passport-google-oauth2/badges/master/build.svg)-->
+
+
 [Passport](http://passportjs.org/) strategies for authenticating with [Google](http://www.google.com/)
 using ONLY OAuth 2.0.
 
@@ -11,7 +18,7 @@ unobtrusively integrated into any application or framework that supports
 
 ## Install
 
-    $ npm install passport-google-oauth2
+    $ npm install @passport-next/passport-google-oauth2
 
 ## Usage of OAuth 2.0
 
@@ -91,13 +98,3 @@ app.get( '/auth/google/callback',
 ## Examples
 
 For a complete, working example, refer to the [OAuth 2.0 example](example).
-
-## Credits
-
-  - [Jared Hanson](http://github.com/jaredhanson)
-
-## License
-
-[The MIT License](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2012-2013 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
