@@ -1,5 +1,6 @@
 # Passport strategy for Google OAuth 2.0
 
+[![NPM version](https://img.shields.io/npm/v/@passport-next/passport-google-oauth2.svg)](https://www.npmjs.com/package/@passport-next/passport-google-oauth2)
 [![Build Status](https://travis-ci.org/passport-next/passport-google-oauth2.svg?branch=master)](https://travis-ci.org/passport-next/passport-google-oauth2)
 [![Coverage Status](https://coveralls.io/repos/github/passport-next/passport-google-oauth2/badge.svg?branch=master)](https://coveralls.io/github/passport-next/passport-google-oauth2?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/7c817d8118420a47390a/maintainability)](https://codeclimate.com/github/passport-next/passport-google-oauth2/maintainability)
