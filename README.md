@@ -94,6 +94,7 @@ app.get( '/auth/google/callback',
    emails
    gender
    picture
+   coverPhoto
 ```
 
 ## Examples
